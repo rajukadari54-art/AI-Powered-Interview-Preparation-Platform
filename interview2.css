@@ -1,0 +1,44 @@
+body{
+    font-family: Arial;
+    background:#f4f6f9;
+}
+
+.container{
+    width:700px;
+    margin:50px auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px #ccc;
+}
+
+h1{
+    text-align:center;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+button{
+    background:#2563eb;
+    color:white;
+    border:none;
+    padding:10px 20px;
+    cursor:pointer;
+}
+
+#questionBox{
+    margin-top:20px;
+    font-weight:bold;
+}
+
+#result{
+    margin-top:20px;
+    color:green;
+    font-size:20px;
+}
